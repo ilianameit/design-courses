@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный профиль</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="">
+    <div class="div profile-wrapper ">
+        <h1 class="profile-header">Личный профиль</h1>
+        <div class="profile">
+            <div class="profile-preview">
+                <div class="profile-preview-container">
+                    <form class="profile-change-img">
+                        <img class='profile-photo img' src="profile.jpg" alt="photo" name="photo">
+                        <button class="btn">Изменить...</button>
+                    </form>
+                </div>
+                <p class='profile-preview-data'>User Name</p>
+                <p class='profile-preview-data'>email@mail.ru</p>
+                <p class='profile-preview-data'>@leftfor1</p>
+            </div>
+            <div class="profile-data">
+                <div>
+                    <form class="form-profile">    
+                        <label for="email">Эл. почта: 
+                            <input id='email' type="e-mail" value="email@mail.ru" class="w-input email" name='email' disabled/>
+                        </label>
+                        <label for="telegram">Тег в Telegram: <span class="profile-telegram-tag">/@</span>
+                            <input id='telegram' type="text" value="leftfor1" class="w-input pass" name='telegram' disabled/>
+                        </label>
+                        <button class="btn">Редактировать</button>
+                    </form>
+                </div>
+                <div> 
+                    <form action="">
+                        <label for="password"><input type="text" value='**********' class="w-input pass" name='password' id="password" disabled/></label>
+                        <button class="btn">Изменить пароль</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
